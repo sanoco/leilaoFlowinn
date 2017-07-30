@@ -1,0 +1,133 @@
+.qmclear {
+	font-size:1px;
+	height:0px;
+	width:0px;
+	clear:left;
+	line-height:0px;
+	display:block;
+}
+
+.qmmc {
+	position:relative;
+	}
+
+.qmmc a {
+	float:left;
+	display:block;
+	white-space:nowrap;
+}
+
+.qmmc div a {
+	float:none;
+}
+
+.qmmc div {
+	display:none;
+	position:absolute;
+}
+
+
+/*"""""""" (MAIN) Container """"""""*/
+	#qm0
+	{ 
+		background-color:transparent;		
+		margin-left: 10px;
+		z-index: 100;
+	}
+
+
+	 /*"""""""" (MAIN) Items """"""""*/
+	#qm0 a
+	{
+		color:#FFFFFF;
+		background-color:#006CB2;
+		font-family:Trebuchet MS;
+		font-size:12px;
+		text-decoration:none;
+		padding:3px 20px 3px 20px;
+		border-top: solid #208ACD 1px;
+		border-right: solid  #04619D 1px;
+		border-bottom: solid #04619D 1px;
+		border-left: solid #208ACD 1px;
+	
+	}
+
+
+	/*"""""""" (MAIN) Hover State """"""""*/
+	#qm0 a:hover
+	{ 
+		background-color:#990000;
+	}
+
+
+	/*"""""""" (MAIN) Active State """"""""*/	
+	#qm0 .qmactive
+	{ 
+		/* Note: Add '!important' after each style */
+
+		background-color:#990000 !important;
+		text-decoration:none !important;
+		
+	}
+
+
+	/*"""""""" (MAIN) Parent Items """"""""*/
+	#qm0 .qmparent
+	{
+		/*background-image:url(../images/seta_menu_baixo.gif);*/
+		background-repeat:no-repeat;
+		background-position:95%;
+		
+	}
+
+
+	/*"""""""" [SUB] Containers """"""""*/
+	#qm0 div
+	{
+		background-color:#FFFFFF;
+		padding:0px;
+		border: solid #04619D 1px;
+		margin-top:-1px;
+		
+	}
+
+	
+	/*"""""""" [SUB] Hover State """"""""*/
+	#qm0 div a:hover
+	{
+		text-decoration:none;
+		color: #FFFFFF;
+		
+	}
+
+
+	/*""""""""[SUB] Active State """"""""*/
+	#qm0 div .qmactive
+	{
+		/* Note: Add '!important' after each style */
+
+		background-color:#990000; !important;
+		color: #ffffff;
+	}
+
+
+	/*"""""""" [SUB] Parent Items """"""""*/
+	#qm0 div .qmparent 
+	{
+		background-image:url(../images/seta_menu.gif);	
+	}
+
+
+	/*"""""""" [SUB] Items """"""""*/
+	#qm0 div a
+	{		
+		background-color:#FFFFFF;
+		color: #343434;
+		padding:2px 20px 2px 5px;
+		border: 0px;
+		border-bottom: solid #7F9DB9 1px;
+		border-right: solid #7F9DB9 1px;
+				
+	}
+
+

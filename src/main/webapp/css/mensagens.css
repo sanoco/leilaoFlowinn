@@ -1,0 +1,131 @@
+
+.erro {
+	margin: 30px;
+	padding: 5px;
+	background-image: url(../images/erro.gif);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	
+	
+}
+
+.erro
+p {
+	padding: 6px;
+	margin-left: 50px;	
+	border: 1px #D86C6C solid;
+	background-color: #FFC7C7;
+}
+
+.erro
+span {
+	margin-left: 50px;
+	font-weight: bold;
+	background-color: #CD0000;
+	color: #ffffff;
+	padding: 2px;
+	padding-left: 6px;
+	display: block;
+	background-image:url(../images/bgerro_topdir.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+
+.alerta {
+	margin: 30px;
+	padding: 5px;
+	background-image: url(../images/alerta.gif);
+	background-position: 8px center;
+	background-repeat: no-repeat;
+	
+}
+
+.alerta
+p {
+	padding: 6px;
+	border: 1px #FAD200 solid;
+	background-color: #FFFF86;
+	margin-left: 50px;	
+}
+
+.alerta
+span {
+	margin-left: 50px;
+	font-weight: bold;
+	background-color: #F4C10D;
+	color: #ffffff;
+	padding: 2px;
+	padding-left: 6px;
+	display: block;
+	background-image:url(../images/bgalerta_topdir.gif);
+	background-position: top right;
+	background-repeat: no-repeat;	
+}
+
+.mensagem {
+	margin: 30px;
+	padding: 5px;
+	background-image: url(../images/info.gif);
+	background-position: 8px center;
+	background-repeat: no-repeat;	
+	
+}
+
+.mensagem
+p {
+	margin-left: 50px;	
+	border: 1px #A2B0D6 solid;
+	background-color: #DCE2F1;
+	padding: 6px;
+}
+
+.mensagem
+span {
+	margin-left: 50px;
+	font-weight: bold;
+	background-color: #0088CA;
+	color: #ffffff;
+	padding: 2px;
+	padding-left: 6px;
+	display: block;
+	background-image:url(../images/bgmensagem_topdir.gif);
+	background-position: top right;
+	background-repeat: no-repeat;	
+}
+
+
+
+
+
+.sucesso {
+	margin: 30px;
+	padding: 5px;
+	background-image: url(../images/sucesso.gif);
+	background-position: 8px center;
+	background-repeat: no-repeat;	
+	
+}
+
+.sucesso
+p {
+	margin-left: 50px;	
+	border: 1px #95C100 solid;
+	background-color: #E5FAAB;
+	padding: 6px;
+}
+
+.sucesso
+span {
+	margin-left: 50px;
+	font-weight: bold;
+	background-color: #95C100;
+	color: #ffffff;
+	padding: 2px;
+	padding-left: 6px;
+	display: block;
+	background-image:url(../images/bgconfirmacao_topdir.gif);
+	background-position: top right;
+	background-repeat: no-repeat;	
+}
+
